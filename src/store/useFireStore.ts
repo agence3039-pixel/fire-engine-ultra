@@ -1,6 +1,6 @@
 import { create } from 'zustand';
   import { persist, createJSONStorage } from 'zustand/middleware';
-  import { FireInputs } from '../utils/fireCalculations';
+  import type { FireInputs } from '../utils/fireCalculations';
 
   export type TransactionType = 'income' | 'expense';
 
