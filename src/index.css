@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --color-fire-50: #f0fdf4;
+  --color-fire-100: #dcfce7;
+  --color-fire-200: #bbf7d0;
+  --color-fire-300: #86efac;
+  --color-fire-400: #4ade80;
+  --color-fire-500: #22c55e;
+  --color-fire-600: #16a344;
+  --color-fire-700: #15803d;
+  --color-fire-800: #166534;
+  --color-fire-900: #14532d;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #020617; /* slate-950 */
+  color: #f8fafc; /* slate-50 */
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
